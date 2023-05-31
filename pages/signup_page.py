@@ -54,18 +54,23 @@ class SignUp:
     def input_birth_date(self):
         self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,self.locators_data["birth_date_frame_signup_page"])
         self.driver.find_element("xpath",self.locators_data["birth_date_frame_signup_page"]).click()
-        locator=self.locators_data["birth_date_signup_page"].replace("'birth_date'","'%s'"%(self.test_data["birth_date"]))
-        print(locator)
+        locator=self.locators_data["birth_date_signup_page"].replace("'date'","%s"%(self.test_data["birth_date"]))
         self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,locator)
         self.driver.find_element("xpath",locator).click()
     
     def input_birth_month(self):
-        self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,self.locators_data["continue_signup_page"])
-        self.driver.find_element("xpath",self.locators_data["continue_signup_page"]).click()
+        self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,self.locators_data["birth_month_frame_signup_page"])
+        self.driver.find_element("xpath",self.locators_data["birth_month_frame_signup_page"]).click()
+        locator=self.locators_data["birth_month_signup_page"].replace("'month'","'%s'"%(self.test_data["birth_month"]))
+        self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,locator)
+        self.driver.find_element("xpath",locator).click()
     
     def input_birth_year(self):
-        self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,self.locators_data["continue_signup_page"])
-        self.driver.find_element("xpath",self.locators_data["continue_signup_page"]).click()
+        self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,self.locators_data["birth_year_frame_signup_page"])
+        self.driver.find_element("xpath",self.locators_data["birth_year_frame_signup_page"]).click()
+        locator=self.locators_data["birth_year_signup_page"].replace("'year'","%s"%(self.test_data["birth_year"]))
+        self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,locator)
+        self.driver.find_element("xpath",locator).click()
         
         
         
