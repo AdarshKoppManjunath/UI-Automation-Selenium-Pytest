@@ -1,0 +1,10 @@
+{
+    "page_redirection_from_home_page":"//*[@id='acEditionSelectRedirectButton']",
+    "signin_wrapper_home_page":"//*[@id='acUserMenu-aco']",
+    "signin_page_link_home_page":"//*[@id='acUserMenu-signIn']",
+
+
+    "username_signin_page": "//input[@type='text' and @name='username' and contains(@data-display-name,'Aeroplan Number or Email')]",
+    "password_signin_page":"//input[@type='password' and @name='password' and contains(@data-display-name,'Aeroplan Password')]",
+    "button_signin_signin_page":"//input[normalize-space(@value)='Sign in']"
+}

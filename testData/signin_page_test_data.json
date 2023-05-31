@@ -1,0 +1,10 @@
+{
+    "test_signin_positive":{
+        "username":"madrsh333@gmail.com",
+        "password":"@Te4339433"
+    },
+    "test_signin_negative":{
+        "username":"madrsh333@gmail.com",
+        "password":"@Te43"
+    }
+}
