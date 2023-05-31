@@ -1,10 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import NoSuchElementException,TimeoutException
 import time
 class SignIn:
-    input_username_name="username"
-    input_password_name="password"
     
     def __init__(self,driver,util_obj,test_step_name):
         self.driver=driver

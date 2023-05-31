@@ -1,0 +1,24 @@
+{
+    "test_signup_positive":{
+        "email":"testemail49ss99090@gmail.com",
+        "password":"@Test12345678",
+        "firstName":"Test",
+        "lastName":"signup",
+        "gender":"Male",
+        "birth_date":"2",
+        "birth_month":"1",
+        "birth_year":"2023",
+        "address1":"test",
+        "address2":"23",
+        "city":"bangalore",
+        "country":"India",
+        "state":"karnataka",
+        "zip":"67878",
+        "phone":"89898980800"
+    },
+    "test_signup_negative":{
+        "email":"madrsh333@gmail.com",
+        "password":"@Te4339433"
+        
+    }
+}

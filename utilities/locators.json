@@ -6,5 +6,39 @@
 
     "username_signin_page": "//input[@type='text' and @name='username' and contains(@data-display-name,'Aeroplan Number or Email')]",
     "password_signin_page":"//input[@type='password' and @name='password' and contains(@data-display-name,'Aeroplan Password')]",
-    "button_signin_signin_page":"//input[normalize-space(@value)='Sign in']"
+    "button_signin_signin_page":"//input[normalize-space(@value)='Sign in']",
+    "create_account_sigin_page":"//a[contains(@href,'enrolment') and normalize-space(text())='Create an account']",
+
+    "email_signup_page":"//input[@type='email' and @name='emailAddress']",
+    "password_signup_page":"//input[@id='pwd' and @name='password']",
+    "checkbox_signup_page":".mat-checkbox-inner-container",
+    "continue_signup_page":"//div[normalize-space(text())='Continue']",
+    "firstname_signup_page":"//input[@type='text' and @name='firstName']",
+    "lastname_signup_page":"//input[@type='text' and @name='lastName']",
+    "gender_frame_signup_page":"//mat-select[@name='gender']",
+    "gender_signup_page":"//span[@class='mat-option-text' and normalize-space(text())='gender']",
+    "language_signup_page":"//mat-select[@name='language']",
+    "birth_date_frame_signup_page":"//mat-select[@id='mat-select-4']",
+    "birth_date_signup_page":"//span[contains(@class,'mat-select-min-line') and text()='date']",
+    "birth_month_signup_page":"//mat-select[@id='mat-select-6']",
+    "birth_year_signup_page":"//mat-select[@id='mat-select-8']",
+    "address1_signup_page":"//input[@formcontrolname='addressLine1']",
+    "address2_signup_page":"//input[@formcontrolname='addressLine2']",
+    "city_signup_page":"//input[@formcontrolname='city']",
+    "zip_signup_page":"//input[@formcontrolname='zip']",
+    "country_signup_page":"//mat-select[@formcontrolname='country']",
+    "state_signup_page":"//mat-select[@formcontrolname='country']",
+    "phone_number_signup_page":"//input[@formcontrolname='phoneNumber']",
+    "captcha_signup_page":"//span[@id='recaptcha-anchor']",
+    "create_new_account_signup_page":"//button[@type='submit']"
+
+
+
+
+
+
+
+
+
+
 }
