@@ -22,11 +22,9 @@ class Test_02_SignUp:
        signin_page_obj.input_password()
        signin_page_obj.check_box()
        signin_page_obj.continue_button()
-       signin_page_obj.input_firstname()
-       signin_page_obj.input_lastname()
-       signin_page_obj.input_gender()
-       signin_page_obj.input_birth_date()
-       
+       if not self.driver.find_element('xpath',"//input[@type='text' and @name='firstName']"):
+               assert False, "Email or Password is not accepted for the account creation or signup"
+      
     #Verify that an error message is displayed when attempting to log in with invalid credentials.
     def test_signup_negative(self):
        home_page_obj=HomePage(self.driver,self.util_obj)

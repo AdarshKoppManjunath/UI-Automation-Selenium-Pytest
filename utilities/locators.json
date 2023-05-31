@@ -20,7 +20,7 @@
     "language_signup_page":"//mat-select[@name='language']",
     "birth_date_frame_signup_page":"//mat-select[@id='mat-select-4']",
     "birth_date_signup_page":"//span[contains(@class,'mat-select-min-line') and text()='date']",
-    "birth_month_signup_page":"//mat-select[@id='mat-select-6']",
+    "birth_month_frame_signup_page":"//mat-select[@id='mat-select-6']",
     "birth_year_signup_page":"//mat-select[@id='mat-select-8']",
     "address1_signup_page":"//input[@formcontrolname='addressLine1']",
     "address2_signup_page":"//input[@formcontrolname='addressLine2']",
