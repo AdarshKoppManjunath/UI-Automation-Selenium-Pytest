@@ -2,7 +2,7 @@ name: python-selenium-assesment
 on:
   workflow_dispatch:  
 jobs:
-  test01:
+  python-selenium-assesment-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Check out this repo
