@@ -1,0 +1,8 @@
+{
+    "test_flight_status_positive":{
+        "flight_number":1
+    },
+    "test_flight_status_negative":{
+        "flight_number":0
+    }
+}

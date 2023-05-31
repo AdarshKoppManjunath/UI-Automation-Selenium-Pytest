@@ -6,6 +6,7 @@ from pages.signin_page import SignIn
 class Test_01_Signin:
     home_page_url="https://www.aircanada.com/"
 
+    #verify if web app is running or not
     def test_home_page_title(self):
         self.driver.get(self.home_page_url)
         actual_title=self.driver.title
