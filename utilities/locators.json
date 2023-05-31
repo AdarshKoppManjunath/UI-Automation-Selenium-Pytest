@@ -2,7 +2,10 @@
     "page_redirection_from_home_page":"//*[@id='acEditionSelectRedirectButton']",
     "signin_wrapper_home_page":"//*[@id='acUserMenu-aco']",
     "signin_page_link_home_page":"//*[@id='acUserMenu-signIn']",
-
+    "fly_home_page":"//*[@id='acMegaNavButton-fly']",
+    "flight_status_home_page":"//a[contains(@href,'search')]",
+    "flight_status_flight_number_home_page":"//input[contains(@name,'abcFormField') and @maxlength=4]",
+    "flight_status_search_button_home_page":"//button[@id='abcButtonElement5']",
 
     "username_signin_page": "//input[@type='text' and @name='username' and contains(@data-display-name,'Aeroplan Number or Email')]",
     "password_signin_page":"//input[@type='password' and @name='password' and contains(@data-display-name,'Aeroplan Password')]",
@@ -31,14 +34,5 @@
     "phone_number_signup_page":"//input[@formcontrolname='phoneNumber']",
     "captcha_signup_page":"//span[@id='recaptcha-anchor']",
     "create_new_account_signup_page":"//button[@type='submit']"
-
-
-
-
-
-
-
-
-
 
 }
