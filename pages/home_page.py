@@ -27,4 +27,10 @@ class HomePage:
         self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,self.locators_data["signin_page_link_home_page"])
         element = self.driver.find_element("xpath",self.locators_data["signin_page_link_home_page"])
         element.click()
+        
+    def naviagte_to_create_account_page(self):
+        self.naviagte_to_signin_page()
+        self.util_obj.explict_wait_unitl_element_found(self.delay,By.XPATH,self.locators_data["create_account_sigin_page"])
+        element = self.driver.find_element("xpath",self.locators_data["create_account_sigin_page"])
+        element.click()
        
