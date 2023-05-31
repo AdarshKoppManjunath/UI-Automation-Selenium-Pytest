@@ -1,0 +1,19 @@
+name: python-selenium-assesment
+on:
+  workflow_dispatch:  
+jobs:
+  test01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install  chrome browser
+        run: sudo apt-get install -y chromium-browser
+      - name: Install the required python libraries
+        run: pip install requests webdriver-manager selenium pytest chromedriver-autoinstaller
+      - name: Run the test scrips from testcase
+        run: pytest -rA
