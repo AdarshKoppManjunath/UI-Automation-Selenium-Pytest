@@ -1,4 +1,4 @@
-# tucowss_assesment
+
 To run this, either you can use github action workflow or clone the repo and install the required libraries from requirements.txt, and type pytest in cmd. 
 
 pages- has POM for UI pages
